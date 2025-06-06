@@ -1,0 +1,113 @@
+focus_tree = {
+	id = OMN_focus
+
+	country = {
+		base = 0
+		modifier = {
+			add = 10
+			tag = OMN
+		}
+	}
+	focus = {
+		id = the_glorious_standard_of_the_emperor_focus
+		icon = GFX_focus_generic_improve_the_administration
+		cost = 5
+		x = 3
+		y = 0
+		available = {
+			has_stability < 0.5
+			344 = { is_owned_by = OMN }
+		}
+		mutually_exclusive = {
+			focus = a_change_of_course
+		}
+		completion_reward = { 
+			add_ideas = the_glorious_standard_of_the_emperor
+		}
+	}
+	focus = {
+		id = meibaPrincipia
+		icon = OMN_watermelon_focus
+		cost = 2
+		relative_position_id = the_glorious_standard_of_the_emperor_focus
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = rally_the_blue_sun_cult
+		}
+		prerequisite = {
+			focus = the_glorious_standard_of_the_emperor_focus
+		}
+		completion_reward = { 
+			add_ideas = power_increase_of_meiba
+		}
+	}
+	focus = {
+		id = rally_the_blue_sun_cult
+		icon = OMN_bsits_focus
+		cost = 2
+		relative_position_id = the_glorious_standard_of_the_emperor_focus
+		x = -1
+		y = 1
+		mutually_exclusive = {
+			focus = meibaPrincipia
+		}
+		prerequisite = {
+			focus = the_glorious_standard_of_the_emperor_focus
+		}
+		completion_reward = { 
+			add_ideas = celestial_cult_of_the_blue_sun_gaining_power
+		}
+	}
+	
+	focus = {
+		id = a_change_of_course
+		icon = OMN_coc_focus
+		cost = 10
+		x = 20
+		y = 0
+		mutually_exclusive = {
+			focus = the_glorious_standard_of_the_emperor_focus
+		}
+		completion_reward = { 
+			add_ideas = accc_idea
+			add_political_power = 150
+			add_popularity = {
+				ideology = communism
+				popularity = 0.07
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = OMN_SA
+		icon = GFX_SOV_national_academies_of_sciences_ccp_2d_sov_compatibility
+		cost = 1
+		x = 28
+		y = 0
+		completion_reward = {
+			remove_ideas = {
+				lack_of_scientists2
+			}
+			add_ideas = {
+				no_lack_of_scientists
+			}
+		}
+	}
+	focus = {
+		id = bumbus_a
+		icon = GFX_focus_SWE_let_fly_all_guns
+		cost = 1
+		x = 28
+		y = 2
+		prerequisite = {
+			focus = OMN_SA
+		}
+		completion_reward = {
+			complete_special_project = sp:fartillery
+		}
+	}
+}

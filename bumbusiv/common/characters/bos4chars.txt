@@ -1,0 +1,74 @@
+characters = {
+	OMN_Meiba={
+		name = OMN_Meiba
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_panda_OMN_leader_meiba_civ
+			}
+			army = {
+				large=GFX_Portrait_panda_OMN_leader_meiba_army
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			traits = {
+				autocratic_imperialist
+				JAK_empress_of_equus
+				military_pioneer
+			}
+		}
+		field_marshal = {
+			skill = 9
+			attack_skill = 7
+			defense_skill = 7
+			planning_skill = 2
+			logistics_skill = 8
+			traits = {
+				fortress_buster
+				artillery_specialist
+				bearer_of_artillery
+				bear_race_trait
+			}
+		}
+	}
+	OMN_altidiya={
+		name= STG_altidiya ###"Altidiya"
+		portraits={
+			civilian={
+				large="gfx/leaders/STG/Alty.tga"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_ALTY_DESC"
+			ideology = leninism
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				provisional
+			}
+		}
+	}
+	OMN_OMNSA={
+		name = OMN_OMNSA
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_OMN_OMNSA
+			}
+		}
+		scientist = {
+			skills = {
+				specialization_magical = 1
+			}
+			traits = {
+				scientist_trait_artillery_specialist = 1
+				scientist_trait_race_expert = 1
+				scientist_trait_resourceful = 1
+			}
+			visible = {
+				owner = {
+					has_completed_focus = OMN_SA
+				}
+			}
+		}
+	}	
+}

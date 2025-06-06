@@ -1,0 +1,59 @@
+fartillery = {
+	icon = GFX_sp_magical_fartillery
+	specialization = specialization_magical
+	prototype_time = 80
+	project_tags = {
+		sp_tag_magical
+		sp_tag_artillery
+		sp_tag_race
+	}
+	complexity = 50
+	breakthrough_cost = {
+		specialization_magical = 3
+	}
+	resource_cost = {
+		resources = {
+			crystals = 3
+		}
+	}
+	available = {
+		FROM = {
+			has_tech = pre_gw_artillery
+		}
+	}
+	
+	generic_prototype_rewards = {
+		sp_magical_generic_reward_scientist_xp_1
+		sp_magical_generic_reward_scientist_xp_2
+		sp_magical_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_magical_generic_reward_major_progress_1
+		sp_magical_generic_reward_major_progress_2
+		sp_magical_generic_reward_major_progress_3
+		sp_magical_generic_reward_test_failure_1
+		sp_magical_generic_reward_test_failure_2
+		sp_magical_generic_reward_test_failure_3
+		sp_magical_generic_reward_magical_tech_1
+		sp_magical_generic_reward_magical_tech_2
+		sp_magical_generic_reward_magical_tech_3
+		sp_magical_generic_reward_race_tech_1
+		sp_magical_generic_reward_race_tech_2
+		sp_magical_generic_reward_race_tech_3
+		sp_magical_generic_reward_resource_scarcity
+		sp_magical_generic_reward_critical_failure
+	}
+	project_output = {
+		enable_subunits = {
+			fartillery = 1
+		}
+		sub_unit_bonus = {
+			artillery = {
+				soft_attack = 0.05
+				hard_attack = -0.05
+				breakthrough = -0.01
+			}
+		}
+	}
+}

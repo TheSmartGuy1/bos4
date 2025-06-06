@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = OMN_coc_focus
+		textureFile = "gfx/interface/OMN_focuses/a_change_of_course_for_the_omniverse.tga"
+	}
+	spriteType = {
+		name = OMN_bsits_focus
+		textureFile = "gfx/interface/OMN_focuses/theBlueSuncult.tga"
+	}
+	spriteType = {
+		name = OMN_watermelon_focus
+		textureFile = "gfx/interface/OMN_focuses/meibaPrincipia.tga"
+	}
+}

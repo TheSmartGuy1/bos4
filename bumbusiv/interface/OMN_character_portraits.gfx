@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_panda_OMN_leader_meiba_civ"
+		textureFile = "gfx/leaders/OMN/OMN_Meiba_Civ.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_panda_OMN_leader_meiba_army"
+		textureFile = "gfx/leaders/OMN/OMN_Meiba_Mil.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_OMN_OMNSA"
+		textureFile = "gfx/science/omnsa.tga"
+	}
+}

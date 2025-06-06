@@ -1,0 +1,8 @@
+OMN = {
+	color = {52 49 50}
+	color_ui = {207 207 207}
+}
+EQC = {
+	color = rgb { 47 158 99 }
+	color_ui = rgb { 0 132 61 }
+}

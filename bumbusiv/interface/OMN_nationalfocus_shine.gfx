@@ -1,0 +1,95 @@
+spriteTypes = {
+	spriteType = {
+        name = OMN_coc_focus_shine # Change the name , note to keep _shine in the end
+        texturefile = "gfx/interface/OMN_focuses/a_change_of_course_for_the_omniverse.tga" # Change the path
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = "gfx/interface/OMN_focuses/a_change_of_course_for_the_omniverse.tga" # Change the path
+
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/OMN_focuses/a_change_of_course_for_the_omniverse.tga"
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+	spriteType = {
+        name = OMN_bsits_focus_shine # Change the name , note to keep _shine in the end
+        texturefile = "gfx/interface/OMN_focuses/theBlueSuncult.tga" # Change the path
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = "gfx/interface/OMN_focuses/theBlueSuncult.tga" # Change the path
+
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/OMN_focuses/theBlueSuncult.tga" # Change the path
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+	spriteType = {
+        name = OMN_watermelon_focus_shine # Change the name , note to keep _shine in the end
+        texturefile = "gfx/interface/OMN_focuses/meibaPrincipia.tga" # Change the path
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = "gfx/interface/OMN_focuses/meibaPrincipia.tga" # Change the path
+
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = "gfx/interface/OMN_focuses/meibaPrincipia.tga" # Change the path
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+}

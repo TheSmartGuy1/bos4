@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		the_glorious_standard_of_the_emperor = {
+			picture = generic_pp_unity_bonus
+			modifier = {
+				stability_factor = 1.0
+				stability_weekly = 0.02
+				political_power_gain = 0.01
+			}
+		}
+		power_increase_of_meiba = {
+			picture = OMN_watermelon
+			modifier = {
+				land_doctrine_cost_factor = -0.1
+				air_cas_efficiency = 1.2
+				artillery_equipment_design_cost_factor = -0.3
+				stability_factor = 0.2
+				political_power_gain = 0.01
+				naval_defense_factor = -0.3
+			}
+		}
+		celestial_cult_of_the_blue_sun_gaining_power = {
+			picture = OMN_bsits
+			modifier = {
+				master_ideology_drift = 0.7
+				political_power_gain = -0.05
+				enemy_justify_war_goal_time = 1.5
+				enemy_army_speed_factor = 0.5
+				stability_factor = -0.1
+			}
+		}
+		accc_idea = {
+			picture = OMN_accc_idea
+			modifier = {
+				stability_factor = 1.0
+				master_ideology_drift = 1.5
+			}
+		}
+		armyboost = {
+			picture = OMN_armyboost
+			modifier = {
+				weekly_manpower = 0.11
+			}
+		}
+	}
+}

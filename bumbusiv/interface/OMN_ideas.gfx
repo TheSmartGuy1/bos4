@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_idea_OMN_watermelon
+		textureFile = "gfx/interface/ideas/IncreasedPowerOfTheEmperor.tga"
+	}
+	spriteType = {
+		name = GFX_idea_OMN_bsits
+		textureFile = "gfx/interface/ideas/BlueSunInTheSky.tga"
+	}
+	spriteType = {
+		name = GFX_idea_OMN_accc_idea
+		textureFile = "gfx/interface/ideas/a_change_of_course_for_the_omniverse.tga"
+	}
+	spriteType = {
+		name = GFX_idea_OMN_armyboost
+		textureFile = "gfx/interface/ideas/OMN_army.tga"
+	}
+}
