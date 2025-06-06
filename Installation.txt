@@ -1,0 +1,1 @@
+Copy the bumbusiv folder and .mod file into Documents\Paradox Interactive\Hearts of Iron IV\mod and Documents\Paradox Interactive\Hearts of Iron IV\workshop\281990
