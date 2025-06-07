@@ -15,4 +15,12 @@ spriteTypes = {
 		name = GFX_idea_OMN_armyboost
 		textureFile = "gfx/interface/ideas/OMN_army.tga"
 	}
+	spriteType = {
+		name = OMN_vott_icon
+		textureFile = "gfx/interface/ideas/MIOs/OMN_vott_icon.tga"
+	}
+	spriteType = {
+		name = OMN_koolhaven_icon
+		textureFile = "gfx/interface/ideas/MIOs/OMN_koolhaven_icon.tga"
+	}
 }
