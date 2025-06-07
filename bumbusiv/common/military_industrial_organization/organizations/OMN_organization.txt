@@ -1,0 +1,87 @@
+OMN_vott_organization_planes = {
+	icon = OMN_vott_icon
+	allowed = {
+		tag = OMN
+	}
+	include = generic_range_focused_aircraft_organization
+	initial_trait = {
+		organization_modifier = {
+			research_speed_factor = 0.11
+		}
+		equipment_bonus = {
+			air_range = 0.1
+			reliability_factor = 0.1
+		}
+	}
+	add_trait = {
+		token = OMN_mio_trait_spirit_of_vott
+		icon = OMN_mio_spirit_of_vott_icon
+		special_trait_background = yes
+		relative_position_id = generic_mio_trait_advanced_production_techniques
+		position = {
+			x = 0
+			y = 1
+		}
+		parent = {
+			traits = {
+				generic_mio_trait_advanced_production_techniques
+			}
+		}
+		equipment_bonus = {
+			reliability_factor = 0.2
+			air_attack = 0.09
+			air_bombing = 0.05
+		}
+	}
+	add_trait = {
+		token = OMN_mio_trait_revisit_vott_legacy
+		icon = OMN_mio_revisit_vott_legacy_icon
+		special_trait_background = yes
+		relative_position_id = generic_mio_trait_advanced_production_techniques
+		position = {
+			x = 0
+			y = 2
+		}
+		parent = {
+			traits = {
+				OMN_mio_trait_spirit_of_vott
+			}
+		}
+		equipment_bonus = {
+			air_superiority = 0.1
+			air_visibility_factor = 0.3
+		}
+	}
+}
+OMN_koolhaven_organizzation = {
+	icon = OMN_koolhaven_icon
+	allowed = {
+		tag = OMN
+	}
+	include = generic_artillery_organization
+	initial_trait = {
+		equipment_bonus = {
+			suppression_factor = 0.1
+			soft_attack = 0.3
+			supply_consumption = -0.05
+		}
+	}
+	add_trait = {
+		token = OMN_mio_trait_better_bumbus_mixes
+		relative_position_id = generic_mio_trait_big_guns
+		position = {
+			x = 2
+			y = 0
+		}
+		icon = OMN_mio_better_bumbus_mixes_icon
+		special_trait_background = yes
+		on_complete = {
+			add_unit_bonus = {
+				fartillery = {
+					soft_attack = 0.05
+					suppression_factor = 0.05
+				}
+			}
+		}
+	}
+}
